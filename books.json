@@ -1,0 +1,411 @@
+[
+    {
+        "id": 1,
+        "category": "klasyka",
+        "title": "Lalka",
+        "author": "Bolesław Prus",
+        "price": 39.99,
+        "cover": "https://wolnelektury.pl/media/book/cover/lalka.jpg",
+        "desc": "Arcydzieło polskiego realizmu. Powieść o miłości, ambicji i rozczarowaniu na tle Warszawy końca XIX wieku."
+    },
+    {
+        "id": 2,
+        "category": "klasyka",
+        "title": "Zbrodnia i kara",
+        "author": "Fiodor Dostojewski",
+        "price": 45.00,
+        "cover": "https://wolnelektury.pl/media/book/cover/zbrodnia-i-kara.jpg",
+        "desc": "Genialne studium psychologiczne zbrodni. Raskolnikow, ubogi student, postanawia zabić starą lichwiarkę."
+    },
+    {
+        "id": 3,
+        "category": "klasyka",
+        "title": "Pan Tadeusz",
+        "author": "Adam Mickiewicz",
+        "price": 29.99,
+        "cover": "https://wolnelektury.pl/media/book/cover/pan-tadeusz.jpg",
+        "desc": "Polska epopeja narodowa. Historia szlachecka z roku 1811 i 1812 we dwunastu księgach wierszem."
+    },
+    {
+        "id": 4,
+        "category": "klasyka",
+        "title": "Wesele",
+        "author": "Stanisław Wyspiański",
+        "price": 25.00,
+        "cover": "https://placehold.co/300x450/3e2723/e5e7eb?text=Wesele",
+        "desc": "Dramat w trzech aktach. Uroczystość weselna staje się tłem do rozważań o polskiej duszy."
+    },
+    {
+        "id": 5,
+        "category": "klasyka",
+        "title": "Quo Vadis",
+        "author": "Henryk Sienkiewicz",
+        "price": 49.00,
+        "cover": "https://placehold.co/300x450/3e2723/e5e7eb?text=Quo+Vadis",
+        "desc": "Historyczna powieść z czasów Nerona. Miłość Winicjusza i Ligii na tle prześladowań chrześcijan."
+    },
+
+    {
+        "id": 101,
+        "category": "kryminal",
+        "title": "Behawiorysta",
+        "author": "Remigiusz Mróz",
+        "price": 39.90,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Behawiorysta",
+        "desc": "Zamachowiec zajmuje przedszkole i grozi zabiciem dzieci. Transmisja na żywo w internecie."
+    },
+    {
+        "id": 102,
+        "category": "kryminal",
+        "title": "Morderstwo w Orient Expressie",
+        "author": "Agatha Christie",
+        "price": 34.99,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Orient+Express",
+        "desc": "Herkules Poirot rozwiązuje zagadkę morderstwa w luksusowym pociągu utknął w zaspie śnieżnej."
+    },
+    {
+        "id": 103,
+        "category": "kryminal",
+        "title": "Pierwszy śnieg",
+        "author": "Jo Nesbø",
+        "price": 42.00,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Pierwszy+Snieg",
+        "desc": "Harry Hole na tropie seryjnego mordercy, który zabija zamężne kobiety, gdy spada pierwszy śnieg."
+    },
+    {
+        "id": 104,
+        "category": "kryminal",
+        "title": "Dziewczyna z pociągu",
+        "author": "Paula Hawkins",
+        "price": 37.50,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Dziewczyna",
+        "desc": "Rachel każdego dnia obserwuje z pociągu idealną parę. Pewnego dnia widzi coś wstrząsającego."
+    },
+    {
+        "id": 105,
+        "category": "kryminal",
+        "title": "Milczenie owiec",
+        "author": "Thomas Harris",
+        "price": 44.90,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Milczenie+Owiec",
+        "desc": "Młoda agentka FBI stara się schwytać seryjnego mordercę, korzystając z pomocy Hannibala Lectera."
+    },
+    {
+        "id": 106,
+        "category": "kryminal",
+        "title": "Kod da Vinci",
+        "author": "Dan Brown",
+        "price": 49.90,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Kod+da+Vinci",
+        "desc": "Robert Langdon zostaje wciągnięty w spisek związany z morderstwem w Luwrze."
+    },
+    {
+        "id": 107,
+        "category": "kryminal",
+        "title": "Zaginiona dziewczyna",
+        "author": "Gillian Flynn",
+        "price": 38.99,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Zaginiona",
+        "desc": "W piątą rocznicę ślubu znika Amy Dunne. Wszystkie poszlaki wskazują na jej męża."
+    },
+    {
+        "id": 108,
+        "category": "kryminal",
+        "title": "Uwikłanie",
+        "author": "Zygmunt Miłoszewski",
+        "price": 36.90,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Uwiklanie",
+        "desc": "Prokurator Szacki prowadzi śledztwo w sprawie morderstwa podczas nietypowej terapii."
+    },
+    {
+        "id": 109,
+        "category": "kryminal",
+        "title": "Ojciec Chrzestny",
+        "author": "Mario Puzo",
+        "price": 49.99,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Ojciec+Chrzestny",
+        "desc": "Epicka opowieść o rodzinie Corleone i jej działalności w świecie amerykańskiej mafii."
+    },
+    {
+        "id": 110,
+        "category": "kryminal",
+        "title": "Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "price": 29.90,
+        "cover": "https://placehold.co/300x450/1f2937/e5e7eb?text=Sherlock",
+        "desc": "Pierwsze spotkanie Watsona i Holmesa oraz ich pierwsza wspólna sprawa kryminalna."
+    },
+
+    {
+        "id": 201,
+        "category": "fantastyczna",
+        "title": "Władca Pierścieni",
+        "author": "J.R.R. Tolkien",
+        "price": 59.99,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Wladca+Pierscieni",
+        "desc": "Początek wielkiej wyprawy Froda Bagginsa w celu zniszczenia Jedynego Pierścienia."
+    },
+    {
+        "id": 202,
+        "category": "fantastyczna",
+        "title": "Harry Potter",
+        "author": "J.K. Rowling",
+        "price": 39.99,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Harry+Potter",
+        "desc": "Jedenastoletni chłopiec dowiaduje się, że jest czarodziejem i trafia do Szkoły Magii."
+    },
+    {
+        "id": 203,
+        "category": "fantastyczna",
+        "title": "Gra o Tron",
+        "author": "George R.R. Martin",
+        "price": 65.00,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Gra+o+Tron",
+        "desc": "Brutalna walka o władzę w Westeros. Zima nadchodzi, a z nią starożytne zło."
+    },
+    {
+        "id": 204,
+        "category": "fantastyczna",
+        "title": "Diuna",
+        "author": "Frank Herbert",
+        "price": 55.00,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Diuna",
+        "desc": "Paul Atryda przybywa na pustynną planetę Arrakis, jedyne źródło cennego melanżu."
+    },
+    {
+        "id": 205,
+        "category": "fantastyczna",
+        "title": "Wiedźmin",
+        "author": "Andrzej Sapkowski",
+        "price": 49.99,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Wiedzmin",
+        "desc": "Opowiadania o Geralcie z Rivii. Kultowa polska fantasy znana na całym świecie."
+    },
+    {
+        "id": 206,
+        "category": "fantastyczna",
+        "title": "Hobbit",
+        "author": "J.R.R. Tolkien",
+        "price": 35.00,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Hobbit",
+        "desc": "Bilbo Baggins wyrusza z krasnoludami na wyprawę, by odzyskać skarb strzeżony przez smoka."
+    },
+    {
+        "id": 207,
+        "category": "fantastyczna",
+        "title": "Mistrz i Małgorzata",
+        "author": "Michaił Bułhakow",
+        "price": 45.00,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Mistrz+i+Malgorzata",
+        "desc": "Szatan przybywa do Moskwy lat 30. XX wieku, wywołując chaos."
+    },
+    {
+        "id": 208,
+        "category": "fantastyczna",
+        "title": "Igrzyska Śmierci",
+        "author": "Suzanne Collins",
+        "price": 39.90,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Igrzyska",
+        "desc": "Katniss Everdeen bierze udział w transmitowanej na żywo walce na śmierć i życie."
+    },
+    {
+        "id": 209,
+        "category": "fantastyczna",
+        "title": "Meekhan",
+        "author": "Robert M. Wegner",
+        "price": 49.00,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Meekhan",
+        "desc": "Epicka polska fantasy. Losy żołnierzy, złodziei i magów splatają się na rubieżach imperium."
+    },
+    {
+        "id": 210,
+        "category": "fantastyczna",
+        "title": "Lód",
+        "author": "Jacek Dukaj",
+        "price": 69.00,
+        "cover": "https://placehold.co/300x450/1e3a8a/e5e7eb?text=Lod",
+        "desc": "Alternatywna historia, w której I wojna światowa nie wybuchła, a Rosję skuł Lód."
+    },
+
+    {
+        "id": 301,
+        "category": "rozwoj",
+        "title": "Atomowe nawyki",
+        "author": "James Clear",
+        "price": 49.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Atomowe+Nawyki",
+        "desc": "Sprawdzone metody budowania dobrych nawyków i pozbywania się tych złych."
+    },
+    {
+        "id": 302,
+        "category": "rozwoj",
+        "title": "7 nawyków",
+        "author": "Stephen R. Covey",
+        "price": 54.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=7+Nawykow",
+        "desc": "Klasyka literatury rozwoju osobistego. Zasady, które pomagają osiągnąć sukces."
+    },
+    {
+        "id": 303,
+        "category": "rozwoj",
+        "title": "Potęga podświadomości",
+        "author": "Joseph Murphy",
+        "price": 34.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Potega+Umyslu",
+        "desc": "Jak zmienić swoje życie, wpływając na własną podświadomość i myślenie."
+    },
+    {
+        "id": 304,
+        "category": "rozwoj",
+        "title": "Jak zdobyć przyjaciół",
+        "author": "Dale Carnegie",
+        "price": 39.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Przyjaciele",
+        "desc": "Ponadczasowe rady dotyczące relacji międzyludzkich i komunikacji."
+    },
+    {
+        "id": 305,
+        "category": "rozwoj",
+        "title": "Esencjalista",
+        "author": "Greg McKeown",
+        "price": 42.00,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Esencjalista",
+        "desc": "Mniej, ale lepiej. Jak skupić się na tym, co naprawdę ważne."
+    },
+    {
+        "id": 306,
+        "category": "rozwoj",
+        "title": "Finansowa forteca",
+        "author": "Marcin Iwuć",
+        "price": 69.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Finanse",
+        "desc": "Kompleksowy przewodnik po inwestowaniu i budowaniu majątku."
+    },
+    {
+        "id": 307,
+        "category": "rozwoj",
+        "title": "Cztery umowy",
+        "author": "Don Miguel Ruiz",
+        "price": 29.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Cztery+Umowy",
+        "desc": "Mądrość Tolteków. Cztery proste zasady, które mogą odmienić Twoje życie."
+    },
+    {
+        "id": 308,
+        "category": "rozwoj",
+        "title": "Nic mnie nie złamie",
+        "author": "David Goggins",
+        "price": 59.90,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Goggins",
+        "desc": "Inspirująca historia byłego komandosa o przekraczaniu granic."
+    },
+    {
+        "id": 309,
+        "category": "rozwoj",
+        "title": "Bogaty ojciec",
+        "author": "Robert Kiyosaki",
+        "price": 45.00,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Bogaty+Ojciec",
+        "desc": "Czego bogaci uczą swoje dzieci o pieniądzach, a czego nie robią biedni."
+    },
+    {
+        "id": 310,
+        "category": "rozwoj",
+        "title": "Mnich i Ferrari",
+        "author": "Robin Sharma",
+        "price": 36.00,
+        "cover": "https://placehold.co/300x450/064e3b/e5e7eb?text=Mnich",
+        "desc": "Przypowieść o spełnianiu marzeń i odnajdywaniu sensu życia."
+    },
+
+    {
+        "id": 401,
+        "category": "naukowe",
+        "title": "Krótka historia czasu",
+        "author": "Stephen Hawking",
+        "price": 44.90,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Historia+Czasu",
+        "desc": "Przystępne wyjaśnienie zagadnień kosmologii i czarnych dziur."
+    },
+    {
+        "id": 402,
+        "category": "naukowe",
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "price": 59.90,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Sapiens",
+        "desc": "Krótka historia ludzkości. Od pierwszych hominidów po cyborgi."
+    },
+    {
+        "id": 403,
+        "category": "naukowe",
+        "title": "Pułapki myślenia",
+        "author": "Daniel Kahneman",
+        "price": 65.00,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Pulapki+Myslenia",
+        "desc": "Noblista wyjaśnia, jak działają dwa systemy myślenia w naszym mózgu."
+    },
+    {
+        "id": 404,
+        "category": "naukowe",
+        "title": "Kosmos",
+        "author": "Carl Sagan",
+        "price": 59.90,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Kosmos",
+        "desc": "Klasyczna podróż przez wszechświat, historię nauki i cywilizacji."
+    },
+    {
+        "id": 405,
+        "category": "naukowe",
+        "title": "Samolubny gen",
+        "author": "Richard Dawkins",
+        "price": 49.90,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Geny",
+        "desc": "Rewolucyjne spojrzenie na ewolucję z perspektywy genu."
+    },
+    {
+        "id": 406,
+        "category": "naukowe",
+        "title": "Dlaczego śpimy",
+        "author": "Matthew Walker",
+        "price": 42.00,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Sen",
+        "desc": "Naukowe dowody na to, jak sen wpływa na nasze zdrowie i pamięć."
+    },
+    {
+        "id": 407,
+        "category": "naukowe",
+        "title": "Wszechświat",
+        "author": "Christophe Galfard",
+        "price": 39.90,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Wszechswiat",
+        "desc": "Podróż przez czas i przestrzeń napisana prostym językiem."
+    },
+    {
+        "id": 408,
+        "category": "naukowe",
+        "title": "Factfulness",
+        "author": "Hans Rosling",
+        "price": 38.00,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Fakty",
+        "desc": "Dlaczego świat jest lepszy, niż myślimy? Odkłamywanie statystyk."
+    },
+    {
+        "id": 409,
+        "category": "naukowe",
+        "title": "Gen. Ukryta historia",
+        "author": "Siddhartha Mukherjee",
+        "price": 55.00,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Gen+Historia",
+        "desc": "Fascynująca biografia genu – od Mendla po inżynierię genetyczną."
+    },
+    {
+        "id": 410,
+        "category": "naukowe",
+        "title": "Astrofizyka",
+        "author": "Neil deGrasse Tyson",
+        "price": 29.90,
+        "cover": "https://placehold.co/300x450/4c1d95/e5e7eb?text=Astrofizyka",
+        "desc": "Szybka dawka wiedzy o kosmosie dla zabieganych."
+    }
+]

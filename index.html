@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang='pl'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>Bookstore — Najlepsze Ceny</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container flex-between">
+            <span>+48 123 456 789 | kontakt@ksiegarnia.pl</span>
+            <nav class="top-nav">
+                <a href="#">O nas</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Pomoc</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-grid">
+            <a href="index.html" class="logo" onclick="app.goHome(event)">
+                <div class="logo-icon">📖</div>
+                <div class="logo-text">
+                    <h1>Bookstore</h1>
+                    <span>NAJLEPSZE CENY</span>
+                </div>
+            </a>
+            
+            <div class="search-bar">
+                <input id="searchInput" type="text" placeholder="Szukaj książki, autora...">
+                <button id="searchBtn">SZUKAJ</button>
+            </div>
+
+            <div class="header-actions">
+                <button class="icon-btn">❤️</button>
+                <button class="icon-btn">👤</button>
+                <button id="cartBtn" class="cart-btn">
+                    🛒 KOSZYK <span id="cartCount">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <a href="index.html" class="active" onclick="app.goHome(event)">STRONA GŁÓWNA</a>
+            <a href="#catalog">KATALOG</a>
+            <a href="#">ZAMÓWIENIA</a>
+            <a href="#">BESTSELLERY</a>
+            <a href="#">NOWOŚCI</a>
+            <a href="#">PROMOCJE</a>
+        </div>
+    </nav>
+    
+    <div class="promo-bar">
+        <div class="container">
+            <span>% PROMOCJE DO -50%</span>
+            <span>🚚 DARMOWA DOSTAWA OD 50 PLN</span>
+            <span>🏷️ NAJNIŻSZE CENY</span>
+        </div>
+    </div>
+
+    <div id="homePage">
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge-red">MEGA PROMOCJA</span>
+                    <h2>NAJLEPSZE CENY <br> NA KSIĄŻKI</h2>
+                    <p>Tysiące tytułów w promocyjnych cenach. Darmowa dostawa od 50 PLN!</p>
+                    <a href="#catalog" class="btn-yellow">ZOBACZ OFERTĘ →</a>
+                </div>
+                <div class="hero-image">
+                    <div class="big-book-icon">📖</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features container">
+            <div class="feature-box">
+                <div class="f-icon">🚚</div>
+                <div>
+                    <strong>DARMOWA DOSTAWA</strong>
+                    <p>Od 50 PLN</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="f-icon">%</div>
+                <div>
+                    <strong>MEGA PROMOCJE</strong>
+                    <p>Do -50%</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="f-icon">🏷️</div>
+                <div>
+                    <strong>NAJNIŻSZE CENY</strong>
+                    <p>Gwarancja</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalog" class="container section-catalog">
+            <div class="section-header">
+                <h3>⭐ KATALOG KSIĄŻEK</h3>
+            </div>
+            
+            <div class="categories-filter">
+                <button class="filter-btn active" onclick="app.filterBooks('all')">Wszystkie</button>
+                <button class="filter-btn" onclick="app.filterBooks('kryminal')">Kryminał</button>
+                <button class="filter-btn" onclick="app.filterBooks('fantastyczna')">Fantastyka</button>
+                <button class="filter-btn" onclick="app.filterBooks('rozwoj')">Rozwój</button>
+                <button class="filter-btn" onclick="app.filterBooks('naukowe')">Naukowe</button>
+                <button class="filter-btn" onclick="app.filterBooks('klasyka')">Klasyka</button>
+            </div>
+
+            <div id="booksGrid"></div>
+        </section>
+    </div>
+
+    <div id="productPage" class="container hidden" style="margin-top: 2rem; margin-bottom: 2rem;">
+        </div>
+
+    <footer>
+        <div class="container">
+            <p>Bookstore © 2025 | Projekt edukacyjny</p>
+        </div>
+    </footer>
+
+    <div id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header-side">
+            <h2>Twój Koszyk</h2>
+            <button id="closeCart" class="close-btn">&times;</button>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-footer">
+            <button id="checkoutBtn" class="btn-yellow full-width">PRZEJDŹ DO KASY</button>
+        </div>
+    </div>
+    <div id="cartOverlay" class="cart-overlay hidden"></div>
+
+    <script src='app.js'></script>
+    <div id="quantityModal" class="modal hidden">
+    <div class="modal-content">
+        <h3>Wybierz ilość</h3>
+        <div class="quantity-controls">
+            <button id="qtyMinus">-</button>
+            <span id="qtyValue">1</span>
+            <button id="qtyPlus">+</button>
+        </div>
+        <button id="addQtyBtn" class="btn-yellow">Dodaj do koszyka</button>
+    </div>
+</div>
+</body>
+</html>

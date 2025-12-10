@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Składanie zamówienia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="checkout-container">
+    <h1>Finalizacja zamówienia</h1>
+
+    <form id="checkoutForm" class="checkout-form">
+        <h2>Dane odbiorcy</h2>
+
+        <label>Imię i nazwisko:
+            <input type="text" id="name" required>
+        </label>
+
+        <label>Adres:
+            <input type="text" id="address" required>
+        </label>
+
+        <label>Kod pocztowy:
+            <input type="text" id="zip" required>
+        </label>
+
+        <label>Miasto:
+            <input type="text" id="city" required>
+        </label>
+
+        <h2>Płatność</h2>
+
+        <label>
+            <input type="radio" name="pay" value="przelew" required> Przelew bankowy
+        </label>
+
+        <label>
+            <input type="radio" name="pay" value="pobranie"> Płatność przy odbiorze
+        </label>
+
+        <label>
+            <input type="radio" name="pay" value="karta"> Karta płatnicza online
+        </label>
+
+        <button class="btn-yellow" type="submit">ZŁÓŻ ZAMÓWIENIE</button>
+    </form>
+
+    <div id="checkoutSummary" class="checkout-summary"></div>
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>
